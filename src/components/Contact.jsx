@@ -84,7 +84,7 @@ const Contact = () => {
         pauseOnHover
         theme="dark"
       />
-    <div className="flex justify-center items-center min-h-screen mt-[-3vh] md:mt-10">
+    <div className="flex justify-center items-center min-h-screen mt-12 md:mt-18">
       <form 
         ref={form}
         id='myform'
