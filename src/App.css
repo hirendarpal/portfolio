@@ -1,0 +1,9 @@
+#page1-in{
+    position: relative;
+    perspective: 1000px;
+}
+
+.dark{
+    color: red;
+    background-color:#242e3a;
+}

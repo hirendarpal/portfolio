@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#distens{
+    position: relative;
+    perspective: 1500px;
+    transition: all 0.5s ease-in-out;
+}
+.nav{
+    background-color: #1a212e;
+    color: white;
+}
+.dark{
+    background-color:#314052;
+    color: white;
+}
+.active{
+    color: orange;
+    padding-bottom: 15px;
+    border-bottom: 3px solid orange;
+}
+.menu li{
+    position: relative;
+}
+.menu li::before{
+    content: '';
+    display: inline;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to left, orange,pink,blue);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    z-index: -1;
+    transform-origin: left;
+}
+.active:hover{
+    color: white;
+}
+.menu li:hover::before{
+    transform: scaleX(1);
+    border-radius: 5px;
+}
+.menu li {
+    position: relative;
+    font-size: 1rem;
+    padding: 2px;
+}
