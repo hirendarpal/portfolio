@@ -18,7 +18,7 @@ const Dark = ({theme}) => {
 
   return (
     <div onClick={() => DarkLighthandeler()} className="mr-5 h-[5vh] w-[5vh] object-cover object-center flex items-center justify-center cursor-pointer hover:bg-gray-400 duration-300 rounded-[50%]">
-      <img className="" src={`public/Images/${Dark ? "sun" : "moon"}.png`} alt="NOT" />
+      <img className="" src={`./Images/${Dark ? "sun" : "moon"}.png`} alt="NOT" />
     </div>
   );
 }
