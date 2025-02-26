@@ -2,6 +2,7 @@ import { useState } from "react";
 
 
 const Dark = ({theme}) => {
+   console.log(theme)
 
     let [Dark, setDark] = useState(JSON.parse(localStorage.getItem('isDark')));
 
