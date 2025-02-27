@@ -88,7 +88,7 @@ const Contact = () => {
       <form 
         ref={form}
         id='myform'
-        className="w-full text-black max-w-lg bg-gray-400 m-5 shadow-md rounded-lg p-8">
+        className="w-full text-black max-w-lg bg-gray-400 mt-[-8vh] m-5 shadow-md rounded-lg p-8">
         <h2 className="text-3xl pb-6 font-bold mt-[-3vh] text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-purple-800">Contact Us</h2>
 
         <div className="mb-4">
